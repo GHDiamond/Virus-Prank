@@ -1,0 +1,77 @@
+↓↓↓ Create a cool harmless prank computer virus with VBScript!!! ↓↓↓
+   --------------------------------------------------------------
+
+1. Install
+--- ↓↓↓ Install a text editor such as Visual Studio Code ↓↓↓
+------- https://code.visualstudio.com
+--- Copy and paste link in the browser and install
+--- If you already have a text editor installed, move on!
+
+2. Create a new file
+--- Create a new file by pressing File > New file... (depends on the text editing program)
+--- Name it anything you want, but make sure it has a .vbs (VBScript) extension
+
+3. Copy and paste
+--- ↓↓↓ In the text editor copy and paste this piece of code ↓↓↓
+------- X = MsgBox("Text", 0+16, "Title")
+
+4. Customize text
+--- Rename "Text" with something else, such as "This is a harmless prank virus!!!"
+--- Rename "Title" with something else, like "Windows"
+
+5. Customize Buttons
+--- Replace 0 with one of these numbers ↓↓↓
+
+------- 0: OK Button
+------- 1: OK and Cancel Button
+------- 2: Abort, Retry and Ignore Button
+------- 3: Yes, No and Cancel Button
+------- 4: Yes and No Button
+------- 5: Retry and Cancel Button
+
+------- Changing the number will change the button(s)
+
+6. Customize Icon
+--- Replace 16 with one of these numbers ↓↓↓
+
+------- 16: Critical Icon
+------- 32: Help Icon
+------- 48: Warning Icon
+------- 64: Information Icon
+
+------- Changing the number will change the icon
+
+7. Loop (Optional)
+--- Instead of just pasting "X = MsgBox("Text", 0+16, "Title")" right into the text you can first write:
+
+do
+
+loop
+
+--- Then paste "X = MsgBox("Text", 0+16, "Title")" and your window will be looped and unclosable
+------- (You can actually close it by opening Task Manager)
+------- (This will not cause lag, but is going to make the window unclosable)
+
+8. Spam Boxes (Optional) (Not recommended)
+--- You can spam the boxes by doing this:
+------- Create a batch file (name the file anything but make sure it has a .bat (Batch) extension)
+------- Write:
+@echo off
+:b
+cscript vbscript.vbs
+goto b
+------- Replace vbscript with the name of your vbscript file
+---------- (This might not work, if it does, your computer can start lagging)
+
+9. Save
+--- Save your VBScript "virus" as intended by your text editor
+--- If you also created the batch file then also save it
+------- (If you will not save you might have to start again if you close the editor and opening the file might not do anything)
+
+10. Run
+--- You can run the file by opening File Explorer, find your file, double click on it and it will run
+--- If you also created the batch file then run the batch file instead
+--- To prevent the popup from opening open task manager and end the task, or type "taskkill /f /im vbscript.vbs" in command prompt or "taskkill /f /im batch.bat" in the command prompt
+
+_____________________________________________________
+I hope you will enjoy your harmless computer virus!!!
